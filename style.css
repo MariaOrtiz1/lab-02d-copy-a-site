@@ -14,10 +14,16 @@ main{
     justify-content: center;
     flex-direction: column;
 }
+.logo{
+    display:flex;
+    flex-direction: row;
+    align-self: flex-start;
+}
 .tags{
     display:flex;
     flex-direction: row;
     gap: 40px;
+    align-items: flex-start;
 }
 .bell{
     /* display: flex; */
@@ -32,6 +38,7 @@ main{
 }
 .list{
     font-size: 4rem;
+    color: rgb(81, 82, 92);
 }
 .button{
     color: white;
