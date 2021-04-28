@@ -1,0 +1,42 @@
+  
+body, html {
+    width: 100%;
+    height: 100%
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing:border-box;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.tags{
+    display:flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.bell{
+    /* display: flex; */
+    margin-left: auto;
+}
+.content{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+    margin-top: 100px;
+    align-items: center;
+}
+.list{
+    font-size: 4rem;
+}
+.button{
+    color: white;
+    background-color: magenta;
+    border-radius: 8px;
+    padding: 20px 60px;
+    text-align: center;
+}
